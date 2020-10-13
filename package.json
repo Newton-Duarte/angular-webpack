@@ -1,0 +1,24 @@
+{
+  "name": "angularjs-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.28",
+    "angular": "^1.8.1",
+    "oclazyload": "^1.1.0"
+  }
+}
